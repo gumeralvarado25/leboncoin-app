@@ -9,5 +9,5 @@ import javax.inject.Inject
 class AlbumsViewModel @Inject constructor(
     private val getAlbumsUseCase: GetAlbumsUseCase,
 ): ViewModel() {
-    
+
 }
