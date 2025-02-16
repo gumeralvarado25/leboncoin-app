@@ -21,4 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "LeboncoinApp"
 include(":app")
- 
+include(":leboncoin-ui")
+include(":leboncoin-domain")
+include(":leboncoin-data")
