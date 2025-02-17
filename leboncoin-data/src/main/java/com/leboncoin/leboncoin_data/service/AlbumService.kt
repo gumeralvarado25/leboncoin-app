@@ -13,6 +13,4 @@ class AlbumService @Inject constructor(
         httpClientProvider.getClient()
             .get("https://static.leboncoin.fr/img/shared/technical-test.json")
             .body()
-
-
 }

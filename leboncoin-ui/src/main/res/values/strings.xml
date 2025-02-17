@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_error_message">An unexpected error occurred. Please try again later.</string>
+    <string name="error_title">Oops! Something went wrong.</string>
+    <string name="retry_button_label">Retry</string>
+    <string name="error_icon_description">Error Icon</string>
+</resources>
