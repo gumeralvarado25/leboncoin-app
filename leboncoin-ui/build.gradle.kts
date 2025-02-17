@@ -46,6 +46,7 @@ dependencies {
     implementation(libs.androidx.material3.android)
     implementation(libs.androidx.ui.tooling.preview.android)
     implementation(platform(libs.androidx.compose.bom))
+    implementation(libs.coil.compose)
 
 
     implementation(libs.hilt.dagger.android)
