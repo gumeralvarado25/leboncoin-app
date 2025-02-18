@@ -34,6 +34,7 @@ private fun UIContent(
     when{
         state.isLoading -> LoadingScreen()
         state.error != null -> ErrorScreen()
+        state.albums.isEmpty() -> NoAlbumsScreen()
         else -> AlbumsUI(modifier = modifier, albums = state.albums)
     }
 }
