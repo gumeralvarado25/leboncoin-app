@@ -17,7 +17,7 @@ fun AlbumEntity.toAlbum() = Album(
     thumbnailUrl = this.thumbnailUrl
 )
 
-fun getThumbnailUrl(url: String?): String? {
+private fun getThumbnailUrl(url: String?): String? {
     val index = url?.lastIndexOf("/")
     return index?.let { "https://place-hold.it/600".plus(url.substring(index, url.length)) }
 }

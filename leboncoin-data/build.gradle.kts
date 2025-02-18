@@ -61,10 +61,11 @@ dependencies {
     implementation(libs.ktor.content.negotiation)
     implementation(libs.ktor.client.okhttp)
 
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
-    implementation(libs.material)
+    testImplementation(libs.mockito.core)
+    testImplementation(libs.mockito.inline)
+    testImplementation(libs.kotlinx.coroutines.test)
+    testImplementation(libs.mockito.kotlin)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
 }
