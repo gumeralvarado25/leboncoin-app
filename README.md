@@ -17,8 +17,6 @@ This is an Android application built using Kotlin and Jetpack Compose, following
     -   [Testing](#testing)
     -   [Other Libraries](#other-libraries)
 -   [Getting Started](#getting-started)
--   [Contributing](#contributing)
--   [License](#license)
 
 ## Project Overview
 
